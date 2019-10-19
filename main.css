@@ -1,0 +1,204 @@
+/* *** BASE STYLES *** */
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'lato', sans-serif;
+  background: #F4F1EF;
+  font-size: 16px;
+}
+
+#about{
+  background: #748CAB;
+}
+#portfolio{
+  overflow: auto;
+  margin-bottom: 80px;
+}
+#contact{
+  background: #A57982;
+}
+footer {
+  background: #A57982;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:rgba (0, 0, 0, 0.2);
+}
+.nav-link,
+.navbar-brand {
+  color: #F4F1EF;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: #424B54;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler-icon {
+  color: #A57982;
+}
+/*--- header ---*/
+.header {
+    background-image: url('img/hero.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .header h1{
+    font-family: 'ovo', serif;
+    font-size: 4rem;
+    padding-top: 2em; 
+    margin-left: 1rem;
+    color: #424B54;
+}
+header h1 span {
+  color: #A57982;
+}
+
+header h2{
+  font-family: 'lato', sans-serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-right: 40rem;
+  margin:2rem;
+  color: #424B54;
+}
+
+  /* .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  } */
+
+  /*--- footer ---*/
+  .page-footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+    background: #A57982;
+  }
+  .footer-copyright {
+    color: #666;
+    padding: 40px 0;
+  }
+
+
+/* *** HOME PAGE *** */
+
+
+/* ----- MEDIA QUERIES ----- */
+
+
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+      padding-right: 3.5em;
+    }
+    .description h2 {
+      font-size: 1em;
+      padding-right: 3em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+     
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+  }
+  
+  .description h1 {
+    font-size: 2em;
+    padding-right: 3.5em;
+  }
+  .description h2 {
+    font-size: 1em;
+    padding-right: 15rem;
+  }
+
+}
+
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+  }
+  
+  .description h1 {
+    font-size: 4rem;
+    padding-right: 3.5em;
+  }
+  .description h2 {
+    font-size: 2rem;
+    padding-right: 30rem;
+  }
+
+  .nav-link {
+    color: #A57982;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .nav-link {
+    color: #F4F1EF;
+  }
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
+ 
+ 
+ 
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+/* Set width to make card deck cards 100% width */
+@media (max-width: 950px) { 
+ 
+}
