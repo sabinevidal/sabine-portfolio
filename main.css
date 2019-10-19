@@ -24,11 +24,11 @@ footer {
 }
 /*--- navigation bar ---*/
 .navbar {
-  background:rgba (0, 0, 0, 0.2);
+  justify-content: flex-end;
 }
 .nav-link,
 .navbar-brand {
-  color: #F4F1EF;
+  color: #748CAB;
   cursor: pointer;
 }
 .nav-link {
@@ -42,9 +42,6 @@ footer {
   justify-content: flex-end;
 }
 
-.navbar-toggler-icon {
-  color: #A57982;
-}
 /*--- header ---*/
 .header {
     background-image: url('img/hero.png');
@@ -177,6 +174,9 @@ header h2{
   .nav-link {
     color: #A57982;
   }
+.navbar-toggle {
+  display: none;
+}
 }
  
 /* Large devices (desktops, 992px and up) */
