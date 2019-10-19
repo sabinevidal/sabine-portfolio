@@ -12,9 +12,9 @@ body {
 #about{
   background: #748CAB;
 }
+
 #portfolio{
   overflow: auto;
-  margin-bottom: 80px;
 }
 #contact{
   background: #A57982;
@@ -85,19 +85,125 @@ header h2{
 
   /*--- footer ---*/
   .page-footer {
-    background-color: #222;
-    color: #ccc;
+    color: #eceadf;
     padding: 60px 0 30px;
     background: #A57982;
   }
   .footer-copyright {
-    color: #666;
-    padding: 40px 0;
+    color: #eceadf;
+    padding: 40px 0 20px;
   }
 
 
 /* *** HOME PAGE *** */
 
+/*--- about ---*/
+#about {
+  padding: 10% 0;
+}
+
+#about h3{
+  font-family: 'ovo', serif;
+  font-size: 2.25rem;
+  text-align: center;
+  color: #eceadf;
+}
+#about img {
+  width: 60%;
+  margin: 20%;
+  margin-top: 10%;
+  border: 2px solid #eceadf;
+}
+#about .col-md p {
+  font-family: 'lato', sans-serif;
+  font-size: 1.1rem;
+  margin: 10%;
+  margin-top: 0;
+  color: #DDD8C4;
+  font-weight: 300;
+}
+
+/*--- work ---*/
+
+#portfolio {
+  padding: 10% 0;
+}
+#portfolio h3{
+  font-family: 'ovo', serif;
+  font-size: 2.25rem;
+  text-align: center;
+  color: #304469;
+  padding-bottom: 2%;
+}
+#portfolio .col-md {
+  margin-bottom: 10%;
+}
+#portfolio img {
+  width: 80%;
+  margin: 3% 10%;
+  border: 5px solid white;
+}
+#portfolio h4 {
+  font-family: 'lato', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #304469;
+}
+#portfolio p {
+  font-family: 'lato', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 0 15%;
+  color: #424B54;
+}
+#portfolio a {
+  text-decoration: none;
+}
+
+/* *** End HOME PAGE *** */
+
+/* *** FOOTER *** */
+
+#contact h3{
+  font-family: 'ovo', serif;
+  font-size: 2.25rem;
+  text-align: center;
+  color: #F4F1EF;
+}
+#contact h4 {
+  font-family: 'lato', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #F4F1EF;
+  padding-bottom: 5%;
+}
+#contact p {
+  font-family: 'lato', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #F4F1EF;
+}
+#contact a {
+  text-decoration: none;
+}
+#contact ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+ 
+}
+#contact ul li {
+  display: inline-block;
+}
+#contact ul li a {
+  color: #F4F1EF;
+  font-size: 2rem;
+
+}
+
+/* *** End FOOTER *** */
 
 /* ----- MEDIA QUERIES ----- */
 
@@ -112,11 +218,11 @@ header h2{
     }
     
     .description h1 {
-      font-size: 2em;
+      font-size: 2.5em;
       padding-right: 3.5em;
     }
     .description h2 {
-      font-size: 1em;
+      font-size: 1.2em;
       padding-right: 3em;
     }
     
@@ -168,15 +274,27 @@ header h2{
   }
   .description h2 {
     font-size: 2rem;
-    padding-right: 30rem;
+    padding-right: 25rem;
   }
 
   .nav-link {
     color: #A57982;
   }
-.navbar-toggle {
-  display: none;
-}
+  .navbar-toggle {
+    display: none;
+  }
+  #about {
+    padding: 5% 0 0 2%;
+  }
+ #portfolio {
+    padding: 5% 0;
+  }
+  .footer-copyright {
+    color: #eceadf;
+    padding: 60px 0 10px;
+  }
+ 
+ 
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -184,6 +302,17 @@ header h2{
   .nav-link {
     color: #F4F1EF;
   }
+  #about .col-md p {
+    margin-top: 10%;
+  }
+  #portfolio .col-md {
+    margin-bottom: 5%;
+  }
+
+  #portfolio p {
+    font-size: 0.9rem;
+  }
+  
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
