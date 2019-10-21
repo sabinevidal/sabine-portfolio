@@ -25,6 +25,8 @@ footer {
 /*--- navigation bar ---*/
 .navbar {
   justify-content: flex-end;
+  position: relative;
+  z-index: 2;
 }
 .nav-link,
 .navbar-brand {
@@ -44,7 +46,7 @@ footer {
 
 /*--- header ---*/
 .header {
-    background-image: url('img/hero.png');
+    background-image: url('/img/hero.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
