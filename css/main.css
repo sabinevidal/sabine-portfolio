@@ -44,6 +44,11 @@ footer {
   justify-content: flex-end;
 }
 
+button.navbar-toggle {
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
 /*--- header ---*/
 .header {
     background-image: url('/img/hero.png');
