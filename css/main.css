@@ -17,7 +17,7 @@ body {
   overflow: auto;
 }
 #contact{
-  background: #C6878F;
+  background: #FFDED3;
 }
 footer {
   background: #C6878F;
@@ -51,7 +51,7 @@ button.navbar-toggle {
 
 /*--- header ---*/
 .header {
-    background-image: url('../img/clouds.png');
+    background-image: url('../img/sky-hero.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -64,12 +64,14 @@ button.navbar-toggle {
   .header h1{
     font-family: 'ovo', serif;
     font-size: 4rem;
-    padding-top: 2em; 
+    padding-top: 3em; 
     margin-left: 1rem;
     color: #2A303D;
 }
 header h1 span {
-  color: #C6878F;
+  color: #DDAC30;
+  font-weight: 700; 
+  text-shadow: 2px 2px #2A303D;
 }
 header h2{
   font-family: 'lato', sans-serif;
@@ -91,12 +93,12 @@ header h2{
 
   /*--- footer ---*/
   .page-footer {
-    color: #eceadf;
+    color: #2A303D;
     padding: 60px 0 30px;
     background: #C6878F;
   }
   .footer-copyright {
-    color: #eceadf;
+    color: #2A303D;
     padding: 40px 0 20px;
   }
 
@@ -174,21 +176,21 @@ header h2{
   font-family: 'ovo', serif;
   font-size: 2.25rem;
   text-align: center;
-  color: #F4F1EF;
+  color: #DDAC30;
 }
 #contact h4 {
   font-family: 'lato', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
-  color: #F4F1EF;
+  color: #DDAC30;
   padding-bottom: 5%;
 }
 #contact p {
   font-family: 'lato', sans-serif;
   font-size: 1rem;
   text-align: center;
-  color: #F4F1EF;
+  color: #DDAC30;
 }
 #contact a {
   text-decoration: none;
@@ -204,7 +206,7 @@ header h2{
   display: inline-block;
 }
 #contact ul li a {
-  color: #F4F1EF;
+  color: #DDAC30;
   font-size: 2rem;
 
 }
@@ -293,8 +295,8 @@ header h2{
     padding: 5% 0;
   }
   .footer-copyright {
-    color: #eceadf;
-    padding: 60px 0 10px;
+    color: #2A303D;
+    padding: 80px 0 10px;
   }
  
 }
