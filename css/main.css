@@ -56,7 +56,7 @@ button.navbar-toggle {
 
 /*--- header ---*/
 .header {
-    background-image: url('../img/sky-hero.png');
+    background-image: url('../img/hero-sky.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -86,6 +86,33 @@ header h2{
   margin:2rem;
   color: #F4F3EF;
 }
+
+.birds img {
+  width: 70%;
+}
+
+.birds-pink {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 0rem;
+}
+
+.birds-yellow {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 0rem;
+}
+
+/* .birds-pink.services  {
+  position: absolute;
+  bottom: -1rem;
+  left: 7rem;
+}
+.birds-yellow.services {
+  position: absolute;
+  bottom: -1rem;
+  left: 7rem;
+} */
 
   /* .overlay {
     position: absolute;
@@ -201,7 +228,7 @@ hr {
 /* *** SERVICES PAGE *** */
 
 .services-header {
-  background-image: url('../img/sky-hero.png');
+  background-image: url('../img/hero-sky.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -224,6 +251,20 @@ font-weight: 700;
 text-shadow: 2px 2px #F4F3EF;
 }
 
+.birds-pink.services  {
+  position: absolute;
+  bottom: -2rem;
+  left: 5rem;
+}
+.birds-yellow.services {
+  position: absolute;
+  bottom: -2rem;
+  left: 5rem;
+}
+
+#services {
+  padding-bottom: 2%;
+}
 #services-bio p {
   width: 90%;
   margin: 4%;
@@ -257,16 +298,20 @@ text-shadow: 2px 2px #F4F3EF;
 }
 
 .services-container p {
-  width: 60%;
+  width: 70%;
   margin: 1rem auto;
+  
 }
 
+#packages .row {
+  padding-bottom: 2rem;
+}
 #packages h3 {
   font-family: 'ovo', serif;
   font-size: 2.25rem;
   text-align: center;
   color: #2A303D;
-  padding-bottom: 2%;
+  padding: 5% 0 3%;
 }
 
 #packages h4 {
@@ -282,21 +327,46 @@ text-shadow: 2px 2px #F4F3EF;
 
 }
 
-#packages .col-sm {
+#packages .col-sm-7 {
   width: 80%;
-  
 }
 
-.right #packages h4, #packages h5, #packages p {
-  text-align: right;
+#packages img {
+  display: none;
 }
+
+#packages .btn {
+  font-family: 'lato', sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #F4F3EF;
+  background: #DDAC30;
+  border: none;
+  padding: 2% 8%;
+  text-transform: uppercase; 
+  margin: 1rem 0;
+}
+
+#packages .btn:hover {
+  background: #ECD18E;
+}
+
+/* 
+Birds in section
+#services .birds img {
+  width: 50%;
+  margin: 0;
+  border: none;
+  bottom: 32rem;
+    left: 10rem;
+} */
 
 
 /* *** End SERVICES PAGE *** */
 
 /* *** PORTFOLIO PAGE *** */
 .portfolio-header {
-  background-image: url('../img/sky-hero.png');
+  background-image: url('../img/hero-sky.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -318,6 +388,27 @@ color: #DDAC30;
 font-weight: 700; 
 text-shadow: 2px 2px #F4F3EF;
 }
+
+.birds-pink.portfolio  {
+  position: absolute;
+  bottom: -2rem;
+  left: 5rem;
+}
+.birds-yellow.portfolio {
+  position: absolute;
+  bottom: -2rem;
+  left: 5rem;
+}
+
+/* 
+Birds in section
+#portfolio .birds img {
+  width: 50%;
+  margin: 0;
+  border: none;
+  bottom: 32rem;
+    left: 10rem;
+} */
 
 
 /* *** End PORTFOLIO PAGE *** */
@@ -440,8 +531,61 @@ text-shadow: 2px 2px #F4F3EF;
   }
   .description h2 {
     font-size: 1.8rem;
-    padding-right: 32rem;
+    padding-right: 12rem;
   }
+
+  .birds img {
+    width: 40%;
+  }
+  .birds-pink {
+    position: absolute;
+    bottom: 8rem;
+    left: 20rem;
+  }
+  
+  .birds-yellow {
+    position: absolute;
+    bottom: 8rem;
+    left: 20rem;
+  }
+
+  .birds-pink.services  {
+    position: absolute;
+    bottom: -1rem;
+    left: 25rem;
+  }
+  .birds-yellow.services {
+    position: absolute;
+    bottom: -1rem;
+    left: 25rem;
+  }
+  .birds-pink.portfolio  {
+    position: absolute;
+    bottom: -1rem;
+    left: 25rem;
+  }
+  .birds-yellow.portfolio {
+    position: absolute;
+    bottom: -1rem;
+    left: 25rem;
+  }
+
+/* 
+Birds in section
+#portfolio .birds img {
+  width: 40%;
+  margin: 0;
+  border: none;
+  bottom: 45rem;
+  left: 25rem;
+}
+#services .birds img {
+  width: 40%;
+  margin: 0;
+  border: none;
+  bottom: 45rem;
+  left: 25rem;
+} */
 
   .navbar-toggle {
     display: none;
@@ -472,19 +616,94 @@ text-shadow: 2px 2px #F4F3EF;
     font-size: 1.8rem;
     padding-right: 32rem;
   }
+  .services-container {
+    width: 80%;
+  }
+  .services-container p {
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 0.9rem;
+  }
+
   #services-bio p {
     font-size: 1rem;
   }
+  #packages h3 {
+  
+    padding: 3% 0;
+  }
 
   #packages h4 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
+
+  #packages .right {
+    text-align: right;
+  }
+  
+  #packages .left {
+    text-align: left;
+  }
+  #packages img {
+    display: initial;
+    width: 60%;
+    margin: 0 10%;
+  }
+
+  #packages .left img {
+    margin-left: 8rem;
+  }
+  #packages .right img {
+    margin-right: 8rem;
+  }
+
+  #packages .left .col-sm-7 {
+   padding-right: 4rem;
+  }
+  #packages .right .col-sm-7 {
+    padding-left: 4rem;
+   }
+
+  
  
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   
+  .description h2 {
+    font-size: 1.8rem;
+    padding-right: 32rem;
+  }
+  .birds-pink {
+    position: absolute;
+    bottom: 3rem;
+    left: 36rem;
+  }
+  
+  .birds-yellow {
+    position: absolute;
+    bottom: 3rem;
+    left: 36rem;
+  }
+
+  /* 
+  Birds in section
+  #portfolio .birds img {
+    width: 40%;
+    margin: 0;
+    border: none;
+    bottom: 27rem;
+    left: 35rem;
+  }
+  #services .birds img {
+    width: 40%;
+    margin: 0;
+    border: none;
+    bottom: 27rem;
+    left: 35rem;
+  } */
+
   #about .col-md p {
     margin-top: 10%;
   }
@@ -495,9 +714,21 @@ text-shadow: 2px 2px #F4F3EF;
   #portfolio p {
     font-size: 0.9rem;
   }
+
+  .services-container p {
+    width: 80%;
+    margin: 1rem auto;
+    font-size: 1rem;
+  }
   #services-bio p {
     padding: 0;
     font-size: 1rem;
+  }
+
+
+
+  #packages .row {
+    padding-bottom: 5rem;
   }
   
 }
