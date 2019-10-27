@@ -14,17 +14,17 @@ p {
 }
 
 /* #about{
-  background: #FFDED3;
+  background: #EAD0C9;
 } */
 
 #portfolio{
   overflow: auto;
 }
 #contact{
-  background: #FFDED3;
+  background: #EAD0C9;
 }
 footer {
-  background: #FFDED3;
+  background: #EAD0C9;
 }
 /*--- navigation bar ---*/
 .navbar {
@@ -43,7 +43,7 @@ footer {
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: #FFDED3;
+  color: #EAD0C9;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -126,7 +126,7 @@ header h2{
   /*--- footer ---*/
   .page-footer {
     padding: 60px 0 30px;
-    background: #FFDED3;
+    background: #EAD0C9;
   }
   .footer-copyright {
     color: #6A717C;
@@ -198,7 +198,7 @@ header h2{
 
 hr {
   width: 50%;
-  border-top: 2px solid #FFDED3; 
+  border-top: 2px solid #EAD0C9; 
 }
 
 #about h3{
@@ -276,7 +276,7 @@ text-shadow: 2px 2px #F4F3EF;
   width: 60%;
   color: #6A717C; 
   margin: 2rem auto;
-  border: 2px solid #FFDED3;
+  border: 2px solid #EAD0C9;
   position: relative;
 }
 
@@ -297,11 +297,26 @@ text-shadow: 2px 2px #F4F3EF;
   margin-top: 2rem;
 }
 
+#services i {
+  color: #EAD0C9;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 45%;
+}
+
+#services .container {
+  margin-top: 2rem;
+}
+
+#services .col-md {
+  padding-top: 2rem;
+}
 .services-container p {
   width: 70%;
   margin: 1rem auto;
-  
 }
+
+
 
 #packages .row {
   padding-bottom: 2rem;
@@ -329,6 +344,7 @@ text-shadow: 2px 2px #F4F3EF;
 
 #packages .col-sm-7 {
   width: 80%;
+  margin: auto;
 }
 
 #packages img {
@@ -350,6 +366,7 @@ text-shadow: 2px 2px #F4F3EF;
 #packages .btn:hover {
   background: #ECD18E;
 }
+
 
 /* 
 Birds in section
@@ -569,6 +586,16 @@ Birds in section
     bottom: -1rem;
     left: 25rem;
   }
+  .birds-yellow.packages {
+    position: absolute;
+    bottom: 8rem;
+    left: 0rem;
+  }
+  .birds-pink.packages  {
+    position: absolute;
+    bottom: 8rem;
+    left: 0rem;
+  }
 
 /* 
 Birds in section
@@ -657,6 +684,9 @@ Birds in section
     margin-right: 8rem;
   }
 
+  #packages .col-sm-7 {
+    margin: 0;
+  }
   #packages .left .col-sm-7 {
    padding-right: 4rem;
   }
@@ -685,6 +715,17 @@ Birds in section
     position: absolute;
     bottom: 3rem;
     left: 36rem;
+  }
+  .birds-pink.packages {
+    position: absolute;
+    bottom: -1rem;
+    left: 0rem;
+  }
+  
+  .birds-yellow.packages {
+    position: absolute;
+    bottom: -1rem;
+    left: 0rem;
   }
 
   /* 
