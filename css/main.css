@@ -103,6 +103,12 @@ header h2{
   left: 0rem;
 }
 
+/* img [class|="birds"] {
+    position: absolute;
+    bottom: 4.5rem;
+    left: 0rem;
+} */
+
 
   /*--- footer ---*/
   .page-footer {
